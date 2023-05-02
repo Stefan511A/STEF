@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Meine Webseite</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+
+		.container {
+			width: 80%;
+			margin: auto;
+			padding: 20px;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 48px;
+			margin-top: 0;
+		}
+
+		h2 {
+			font-size: 36px;
+			margin-bottom: 10px;
+		}
+
+		p {
+			font-size: 24px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+
+		.facts {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-top: 50px;
+		}
+
+		.fact {
+			flex-basis: 30%;
+			margin: 10px;
+			background-color: white;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			text-align: center;
+		}
+
+		.fact h3 {
+			font-size: 24px;
+			margin-top: 0;
+		}
+
+		.fact p {
+			font-size: 18px;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Willkommen auf meiner Webseite</h1>
+		<p>Hier finden Sie immer aktuelle Informationen zu verschiedenen Themen.</p>
+		<h2>Unsere Fakten</h2>
+		<div class="facts">
+			<div class="fact">
+				<h3>Die Erde ist keine Scheibe</h3>
+				<p>Das sollte mittlerweile jeder wissen.</p>
+			</div>
+			<div class="fact">
+				<h3>Wasser ist nass</h3>
+				<p>Eine Erkenntnis, die die Menschheit seit Jahrhunderten beschäftigt.</p>
+			</div>
+			<div class="fact">
+				<h3>Die meisten Menschen haben zwei Beine</h3>
+				<p>Obwohl es Ausnahmen gibt, ist dies die Regel.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
